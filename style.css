@@ -1,0 +1,78 @@
+h2{
+    color:rgb(222, 10, 46);
+}
+p{
+    color:blue;
+    font-size:20px;
+}
+/*Tipos de selectores*/
+*{
+    font-family: 'Permanent Marker','Tilt Warp', verdana;
+}
+li{
+    color:brown;
+}
+
+#narnia{
+    color:gold;
+}
+.zelda{
+    color:blueviolet;
+}
+#imagen-perro{
+    width:600px;
+    height:300px;
+    border-radius:50%;
+}
+img {
+    width:200px;
+    height:100px;
+    padding: 20px 3px 20px 3px;
+    margin:10px;
+    background-color:green;
+    border-width: 20px;
+    border-color: black;
+    border-style: solid;
+}
+
+
+img[alt]{
+    border-radius:60%;
+}
+[type="checkbox"]{
+    margin:30px;
+}
+a[href="index.html"]{
+    color:yellow;
+}
+p[alt]{
+    text-decoration:underline;
+}
+
+.rectangulo{
+    margin:5px;
+    padding:5px; 
+}
+
+#contenedor-principal{
+    color:white;
+    padding:5px;
+    font-size:3px;
+    background-color:green;
+    font-family:verdana; 
+}
+.px{
+    background-color:crimson;
+    width:200px;
+}
+.vw{
+    background-color:darkblue;
+    width:20vw;
+}
+.em{
+    background-color:purple;
+    width:15em;
+}
+div{
+    background-color:yellow;
+}
